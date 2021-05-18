@@ -9,20 +9,12 @@
     padding: 25px 0;
 }
 
-.centered{
-    text-align: center;
-}
-
 i:not(button i){
     margin-bottom: 16px;
 }
 
 .container img{
     padding-top: 25px;
-}
-
-.row p{
-    text-align: left;
 }
 
 button{
@@ -45,10 +37,6 @@ a:visited, a:link, a:hover {
     background-color: #3a546d;
 }
 
-.container-fluid:nth-child(5) p{
-    text-align: center;
-}
-
 .social i {
     width: 55px;
     padding: 15px;
@@ -66,6 +54,3 @@ a:visited, a:link, a:hover {
     background-color: #2c3e50;
 }
 
-.container-fluid:last-child p{
-    text-align: center;
-}
