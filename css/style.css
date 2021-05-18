@@ -4,6 +4,7 @@
     color: white;
     padding: 25px 0;
 }
+
 .container{
     padding: 25px 0;
 }
@@ -12,7 +13,7 @@
     text-align: center;
 }
 
-i{
+i:not(button i){
     margin-bottom: 16px;
 }
 
@@ -30,11 +31,11 @@ button{
     border: white 1px solid ;
     width: 150px;
 }
+
 a:visited, a:link, a:hover {
     text-decoration: none;
     color: white;
 }
-
 
 .form-group:nth-child(1){
     margin-top: 25px;
