@@ -5,13 +5,16 @@
     padding: 25px 0;
 }
 .container{
-    text-align: center;
     padding: 25px 0;
 }
 
+.centered{
+    text-align: center;
+}
 .container img{
     padding-top: 25px;
 }
+
 .row p{
     text-align: left;
 }
@@ -22,7 +25,11 @@ button{
     border: white 1px solid ;
     width: 150px;
 }
-a:visited, a:link{
+a:visited, a:link, a:hover {
     text-decoration: none;
     color: white;
+}
+
+.form-group:nth-child(1){
+    margin-top: 25px;
 }
