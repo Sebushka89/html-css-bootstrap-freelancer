@@ -1,0 +1,28 @@
+.container-fluid{
+    background-color: #1ABC9C;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+}
+.container{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.container img{
+    padding-top: 25px;
+}
+.row p{
+    text-align: left;
+}
+
+button{
+    color: white;
+    background-color: #1ABC9C;
+    border: white 1px solid ;
+    width: 150px;
+}
+a:visited, a:link{
+    text-decoration: none;
+    color: white;
+}
