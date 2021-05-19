@@ -123,3 +123,7 @@ a:visited i, a:link i, a:hover i {
 .navbar-brand{
     font-weight: bold;
 }
+
+.navbar-dark .navbar-toggler{
+    border-color: rgb(255,255,255);
+}
