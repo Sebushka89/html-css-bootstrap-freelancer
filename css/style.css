@@ -1,12 +1,11 @@
-.container-fluid{
+.section-green{
     background-color: #1ABC9C;
     text-align: center;
     color: #fff;
     padding: 50px 0;
 }
-
-.container{
-    padding: 25px 0;
+.container h2{
+    margin-top: 8px;
 }
 
 .jumbo{
@@ -39,7 +38,7 @@ i:not(button i){
 }
 
 .container img{
-    margin-top: 24px;
+    margin-bottom: 24px;
     width: 100%;
 }
 
@@ -58,7 +57,7 @@ a:visited i, a:link i, a:hover i {
     padding-top: 25px;
 }
 
-.container-fluid:nth-child(5){
+.section-green:nth-child(5){
     background-color: #3a546d;
 }
 
@@ -76,8 +75,18 @@ a:visited i, a:link i, a:hover i {
     text-decoration: none;
 }
 
-.container-fluid:last-child{
+.section-gray{
+    background-color: #3a546d;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.section-darkgray{
     background-color: #2c3e50;
+    text-align: center;
+    color: #fff;
+    padding-top: 16px;
 }
 
 .form-group input{
@@ -100,4 +109,17 @@ a:visited i, a:link i, a:hover i {
     color: lightgray;
 }
 
+.btn-green{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+/*NAVBAR*/
+.navbar-collapse{
+    flex-grow: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
 
+.navbar-brand{
+    font-weight: bold;
+}
